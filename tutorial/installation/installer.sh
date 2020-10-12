@@ -4,6 +4,7 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
         sudo apt-get -y upgrade > /dev/null 2>&1
         git --help > /dev/null 2>&1 || sudo apt-get -y install git || echo "[!] Could not install git"
         python3 --help > /dev/null 2>&1 || sudo apt-get -y install python3 || echo "[!] Could not install python3"
+        pip3 --help > /dev/null 2>&1 || sudo apt-get -y install python3-pip || echo "[!] Could not install python3-pip"
         command -v ping > /dev/null 2>&1 || sudo apt-get -y install iputils-ping || echo "[!] Could not install ping"
         nmap --help > /dev/null 2>&1 || sudo apt-get -y install nmap || echo "[!] Could not install nmap"
         git clone https://github.com/Taguar258/Raven-Storm/ > /dev/null 2>&1
