@@ -10,7 +10,7 @@ To install Raven-Storm enter the following command:
 
 (You might need to install curl)
 
-```sudo curl https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/tutorial/installation/installer.sh --output rs-install.sh ; bash rs-install.sh```
+```curl https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/tutorial/installation/installer.sh --output rs-install.sh ; sudo bash rs-install.sh```
 
 
 
